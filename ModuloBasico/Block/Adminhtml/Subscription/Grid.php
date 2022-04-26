@@ -21,11 +21,11 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     public function __construct(
         \Magento\Backend\Block\Template\Context $context,
         \Magento\Backend\Helper\Data $backendHelper,
-        \Marcgento\ModuloBasico\Model\ResourceModel\Subscription\Collection $subscriptionCollection,
+        // \Marcgento\ModuloBasico\Model\ResourceModel\Subscription\Collection $subscriptionCollection,
         array $data = []
     ){
-        echo "oso";exit;
-        $this->_subscriptionCollection = $subscriptionCollection;
+        // echo "oso";exit;
+        // $this->_subscriptionCollection = $subscriptionCollection;
         parent::__construct($context, $backendHelper, $data);
         $this->setEmptyText(__('No Subscription Found'));
     }
